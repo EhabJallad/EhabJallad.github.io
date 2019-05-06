@@ -1,0 +1,213 @@
+
+#signInbackground
+{
+ 
+    background-repeat: no-repeat;
+    background-size:contain;
+   /* background-color:black;*/
+    background-image: linear-gradient(to right, black,#2e3744,black) ;
+    
+     position:static;
+    overflow-x:hidden;
+    
+
+}
+
+/*Page Logo when it's a link*/
+#logoLink
+{
+    width:100px;
+    height:50px; 
+    display:inline; 
+    position:relative; 
+    top:0px; 
+    left:0px;
+    
+    transition: filter 0.2s;
+}
+
+#logoLink:hover{
+    filter:opacity(50%) grayscale(60%);
+    
+    
+}
+
+/*Title*/
+
+
+
+#welcome {
+   position:relative;
+    left:650px;
+    top:100px;
+    color:white;
+    font-family:Verdana;
+}
+
+#avatar
+{
+    position:relative;
+    left:113px;
+    top:0px;
+    
+}
+
+#heading1
+{
+    position:relative;
+    top:10px;
+    left:0px;
+   
+    
+}
+
+
+#heading2
+{
+    position:relative;
+    top:10px;
+    left:65px;
+    color:pink;
+    
+    
+}
+
+
+/*Main box for signing in*/
+
+
+#signInBox
+{
+    border-style:solid;
+    border-color:black;
+    
+    background-image: url("Pictures/LoginBox.jpg");
+   
+    width:375px;
+    height:420px;
+    
+    position:relative;
+    top:130px;
+    left:605px;
+    
+    
+    
+    
+    
+    border-width:1px;
+    border-radius:11px;
+    box-shadow:0px 0px 5px 1px silver;
+}
+
+
+/* content inside the sign in box */
+
+.inputBoxheading
+{
+    font-family:Verdana;
+    position:relative;
+
+}
+
+.InputBoxes
+{
+    position:absolute;
+    left:20px;
+    top:100px;
+    width:75%;
+    height:40px;
+    border-radius:5px;
+    padding-left:6px;
+    padding-right:35px;
+    
+    border-width: 0px;
+    
+    background-color:#414946;
+    color:white;
+     font-family: Verdana;
+    z-index:3;
+    
+}
+
+.InputBoxes:focus
+{
+  
+      box-shadow:0px 0px 5px 1px silver;
+}
+
+.InputBoxes:hover{
+    cursor: pointer;
+      
+}
+  
+
+#signInButton
+{
+    color:whitesmoke;
+    position:absolute;
+    top:360px;
+    left:40px;
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    border-radius:6px;
+    width:80%;
+    height:40px;
+    background-color:darkturquoise;
+    font-size:25px;
+    background-image:url("pictures/loginInButton.jpg");
+    transition:filter 0.4s;
+    font-family:Verdana;
+    display:block;
+   
+}
+
+
+#signInButton:hover{
+    cursor:pointer;
+    filter:opacity(60%);
+}
+  /*extra box below the box*/
+
+#extra
+{
+    position:relative;
+    top:165px;
+    left:645px;
+    text-decoration:none;
+     color:white;
+    font-family:Verdana;
+    
+    
+}
+
+#exSignUp
+{
+    text-decoration:none;
+    color:black;
+    color:white;
+    position:relative;
+    left:20px;
+    
+}
+
+#exPass
+{
+    position:relative;
+    left:80px;
+    color:black;
+    text-decoration:none;
+     color:white;
+    
+} 
+
+ #exSignUp:hover{
+	color:pink;
+}
+  
+
+ #exPass:hover{
+	color:pink;
+}
+     
+

@@ -1,0 +1,91 @@
+#FAQBackground
+{
+    background-image: linear-gradient(to right, black,#2e3744,black) ;
+    background-size:cover;
+    position:static;
+}
+
+#FAQHeading
+{
+    color:white;
+    position:absolute;
+    font-family:Verdana;
+    top:200px;
+    left:530px;
+}
+
+.QuestionsBox
+{
+    position:absolute;
+    top:320px;
+    left:420px;
+        
+}
+
+.QuestionBar
+{
+    position:absolute;
+    left:10px;
+    top:15px;
+    border-style:none;
+    height:70px;
+    width:820px;
+    background-color:rgb(238,238,238);
+    border-style:solid;
+    border-color:rgb(238,238,238);
+    border-width:0.5px;
+    z-index:1;
+    font-family:Verdana;
+    
+}
+
+.QuestionBar:hover{
+    cursor:pointer;
+    
+    
+}
+
+
+
+.QuestionHeading
+{
+    font-size:22px;
+    position:absolute;
+    top:-3px;
+    left:30px;
+    
+    
+  
+    
+}
+.QuestionContent
+{
+    position:absolute;
+    left:9.5px;
+    top:85px;
+    
+    font-size:23px;
+    font-family:Garamond;
+    position:absolute;
+    
+    background-color:rgb(238,238,210);
+    border-style:solid;
+    border-color:rgb(238,238,210);
+    border-width:0.5px;
+    
+    height:80px;
+    width:821.5px;
+    cursor:pointer;
+    
+    border-color:black;
+    z-index:100;
+    
+}
+
+.sign{
+    font-size:27px;
+    position:absolute;
+    top:-8px;
+    right:30px;
+    
+}

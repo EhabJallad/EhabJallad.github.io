@@ -1,0 +1,137 @@
+
+/**/
+
+#aboutUsBackground
+{
+     background-image: linear-gradient(to right, black,#2e3744,black);
+    background-size:cover;
+    position: static;
+    
+}
+
+#aboutUsHeading
+{
+    position:absolute;
+    left:730px;
+    
+    font-size:40px;
+        color:white;
+    
+}
+
+#aboutUsDescription
+{
+    position:absolute;
+    top:240px;
+    left:540px;
+    
+    font-size:22px;
+    color:white;
+    line-height:30px;
+    
+}
+
+#aboutUsPictureBox{
+    position:absolute; 
+    top:113px; 
+    left:-5px;
+    width:1527px;
+    height:400px;
+    background-image: url("pictures/aboutUsBoxPhoto.jpg");
+    background-size:cover;
+    background-position:center center;
+    background-attachment: fixed;
+
+}
+
+#pictureBoxHeading
+{
+    position:absolute;
+    top:0px;
+    left:650px;
+    font-size:80px;
+    color:white;
+       font-family:Verdana;
+}
+
+#pictureBoxDetails
+{
+    position:absolute;
+    top:150px;
+    left:350px;
+    font-size:40px;
+    color:pink;
+       font-family:Verdana;
+}
+    
+
+
+
+
+	
+#aboutUsDescription{
+     position:absolute;
+    top:600px;
+    left:100px;
+    font-size:30px;
+    color:white;
+    font-family:Verdana;
+    line-height: 50px;
+    
+}
+
+#aboutUsKeyPointsBox
+{
+    border-style:solid;
+    border-color:black;
+    height:420px;
+    width:1000px;
+    position:absolute;
+    top:1000px;
+    left:300px;
+    border-style:none;
+    
+    
+    
+}
+
+.aboutUsPoint
+{
+    border-style:solid;
+    border-color:black;
+    border-width:2px;
+    height:300px;
+    width:250px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-style: none;
+    border-right-style: none;
+    
+    
+    
+}
+
+.aboutUsIcons
+{
+    width:90px;
+    height:90px;
+    position:absolute;
+    top:20px;
+    left:80px;
+}
+
+.aboutUsPointInformation
+{
+    position:absolute;
+    top:140px;
+    left:25px;
+    color:pink;
+    font-size:20px;
+    margin:0;
+    padding:0;
+    font-family:Verdana;
+    
+}

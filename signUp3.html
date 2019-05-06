@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Credit card information</title>
+    <meta charset = "utf-8">
+    <link href ="Images/favicon.ico" rel = "shortcut icon" type = "image/x-icon"/>
+    <link href = "signIn.css" rel = "stylesheet" type = "text/css"/>
+    <link href = "signUp.css" rel = "stylesheet" type = "text/css"/>
+    <link rel="stylesheet" href="Main.css">
+      <script src="jquery.min.js"></script>
+    <script src = "main.js" ></script>
+    
+    
+  </head>
+    
+    
+  <body id = "signUpBackground">
+      
+       <!-- From here you start copying from mainPage -->
+        <img id = "topButton" src = "pictures/topButton.jpg" >
+       <!-- From here copying ends -->
+      
+      <!--  Logo  -->
+      <a href = "index.html"><img id = "logoLink" src = "Pictures/Logo.jpg " style = "position: absolute; top:30px; left:0px; z-index:3;"  ></a>
+      
+      <!-- Main part-->
+      
+        <!-- Section 1 <Ad > -->
+       <div id = "Ad" style = "height:1300px; background-size:800px 1300px;">
+            
+            
+            
+       </div>
+      
+      
+      
+      <!-- Section 2 <Sign-Up box > -->
+      
+      <div id = "SignUpBox" style = "height:1540px;">
+          <p id = "p1">Create an account</p>
+          <p id = "step">Step 3 / 4 : Credit card information</p>
+          
+          <hr id = "xLine"/>
+          
+          
+       <form name = "signUpForm" id = "signUpform" autocomplete = "off">
+           
+          <!-- Payment Method-->
+           <p id = "paymentMethod"  style = "font-family: Verdana;">Please select one of the payment methods</p>
+           
+         
+        <input type = "radio" class = "paymentButtons" name = "pMethod" value = "v" id = "visa" style = "position:absolute; top:320px; left:40px;" >
+        
+        <img src = "Pictures/Payment/visa.png" width = "100px" height = "60px"
+         class = "paymentCards" style = "position:absolute; top:300px; left:80px;">
+              
+      <input type = "radio" class = "paymentButtons" name = "pMethod" value = "m" id = "masterCard" style = "position:absolute; top:320px; left:230px;">
+                       
+      <img src = "Pictures/Payment/masterCard.jpg" width = "100px" height = "60px"
+         class = "paymentCards" style = "position:absolute; top:300px; left:272px;">
+           
+      <img src = "Pictures/Payment/hand.png" 
+         id = "hand" >
+           
+           
+     <!-- Payment Form-->
+         
+           
+                  
+         <p id = "paymentGuide" style = "font-family: Verdana;">Please fill out the fields below</p>    
+           
+           <!-- Card holder name -->
+           
+         <span style = "position:absolute; left:45px; top:520px; color:white;" class = "inputBoxheading" id = "cardHolderNameHeading">CardHolder name</span>
+           
+           
+        <input type = "text" id = "cardHolderNameBox" class = "InputBoxes" placeholder = "CardHolder name..." style = "position:absolute;  left:45px; width:220px; top:555px;">
+           <br><br><br><br><br>
+           
+           
+        <p style = "color:red; position:absolute; left:45px; top:610px;  display:block; visibility: hidden; font-family:Verdana; font-size:15px;" id = "cardHolderNameError" >Error</p>
+           
+           
+         <!-- Card Number -->
+           
+         <span style = "position:absolute; left:45px; top:680px; color:white;" class = "inputBoxheading" id = "cardNumberHeading">Card number </span>
+           
+           
+        <input type = "text" id = "cardNumberBox" class = "InputBoxes" placeholder = "card number..." style = "position:absolute;  left:45px; width:220px; top:730px;">
+           <br><br><br><br><br>
+           
+           
+        <p style = "color:red; position:absolute; left:45px; top:785px;  display:block; visibility: hidden; font-family:Verdana; font-size:15px;" id = "cardNumberError" >Error</p>
+           
+           
+        <!-- expiration date-->
+           
+           <span style = "position:absolute; left:45px; top:855px; color:white;" class = "inputBoxheading" id = "expiration DateHeading">Expiration date </span>
+           
+           
+        <input type = "date" id = "expirationDateBox" class = "InputBoxes" placeholder = "CardHolder name..." style = "position:absolute;  left:45px; width:220px; top:905px;">
+           <br><br><br><br><br>
+           
+           
+        <p style = "color:red; position:absolute; left:45px; top:970px;  display:block; visibility: hidden; font-family:Verdana; font-size:15px;" id = "expirationDateError" >Error</p>
+           
+           
+           
+        <!-- Secuirty Code -->
+           
+           
+         <span style = "position:absolute; left:45px; top:1040px; color:white;" class = "inputBoxheading" id = "securityCodeHeading">Security Code </span>
+           
+           
+        <input type = "text" id = "securityCodeBox" class = "InputBoxes" placeholder = "security code..." style = "position:absolute;  left:45px; width:220px; top:1090px;">
+           <br><br><br><br><br>
+           
+           
+        <p style = "color:red; position:absolute; left:45px; top:1140px;  display:block; visibility: hidden; font-family:Verdana; font-size:15px;" id = "securityCodeError" >Error</p>
+                    
+             
+            
+       <!-- Sign in button -->
+       <input id = "Next3Button" type = "button" value = "Next"
+              
+              style = "position:absolute; top:1210px; left:210px;width:300px;">
+          
+           
+           
+           
+       
+          
+      
+          
+        </form>
+  
+       </div>
+        
+     
+   
+          
+            
+       
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+<!-- Part(2): from here you copy the bottom part from Mainpage -->
+    
+    <!-- Bottom part -->
+    <div id = "bottomPart" style = "position:relative; top:-5px; right:10px;
+                                   ">
+         
+        
+        <a href = "https://web.facebook.com/?_rdc=1&_rdr" target = "_blank"  style = "visibility:hidden;">
+            <img  src = "Pictures/socialMedia/Facebook.png" class = "socialMedia" id = "facebook">
+        </a>
+        
+        <a href= "https://twitter.com/" target = "_blank" style = "visibility:hidden;">
+            <img src = "Pictures/socialMedia/Twitter.png" class = "socialMedia" id = "twitter">
+        </a>  
+        
+        <a href= "https://www.youtube.com/" target = "_blank" style = "visibility:hidden;">
+            <img  src = "Pictures/socialMedia/youtube.png" class = "socialMedia" id = "youtube">
+        </a>    
+        
+        <span class = "words">  ShoppingStore Online inc.  </span>
+        
+        <a href = "aboutUs.html"  class = "words "  ><span class = "bottomLinks">About Us</span></a>
+        <a href = "contactUs.html"  class = "words "  ><span class = "bottomLinks">Contact Us</span></a>
+        <a href = "privacyPolicy.html"  class = "words "  ><span class = "bottomLinks">Privacy Policy</span></a> 
+        <a href = "FAQ.html"  class = "words "  ><span class = "bottomLinks">FAQ</span></a>
+ 
+        
+    </div>
+    
+<!-- Part(2): from here you finsh copying the bottom part of Mainpage -->
+    
+       
+   
+      
+      
+  </body>
+    
+    
+</html>

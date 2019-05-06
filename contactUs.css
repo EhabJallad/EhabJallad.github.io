@@ -1,0 +1,214 @@
+
+/**/
+
+#contactUsBackground
+{
+     /*background-image:url("Pictures/FAQBackground.jpg");*/
+    background-size:cover;
+     background-image: linear-gradient(to right, black,#2e3744,black) ;
+    position:static;
+    
+}
+
+#contactUsHeading
+{
+    position:absolute;
+    top:135px;
+    left:670px;
+    
+    font-size:40px;
+        color:white;
+    font-family:Verdana;
+    
+}
+
+#contactUsDescription
+{
+    position:absolute;
+    top:225px;
+    left:510px;
+    
+    font-size:18px;
+    color:pink;
+    line-height:30px;
+    font-family:Verdana;
+    line-height:37px;
+    
+}
+
+#contactUsForm
+{
+
+    width:700px;
+    height:800px;
+    
+    position:absolute;
+    left:520px;
+    top:320px;
+    
+}
+
+.contactUsInputBoxes
+{
+    position:relative;
+    left:30px;
+    top:80px;
+    width:50%;
+    height:40px;
+    border-radius:5px;
+    padding-left:6px;
+     padding-right:35px;
+    
+    border-width: 0px;
+    
+    background-color:#414946;
+    font-family:Verdana;
+    color:white;
+    
+    
+}
+
+.contactUsInputBoxes:focus
+{
+    box-shadow:0px 0px 5px 1px silver;
+}
+
+
+.contactUsInputBoxes:hover
+{
+    cursor:pointer;
+}
+  
+
+.contactUsinputBoxheading
+{
+    font-family: Georgia;
+    position:absolute;
+    left:30px;
+    top:35px;
+    font-size:20px;
+    font-family:Verdana;
+    color:white;
+
+}
+
+.contactUsDropDownList
+{
+    position:relative;
+    left:30px;
+    top:70px;
+    width:50%;
+    height:40px;
+    border-radius:5px;
+    padding-left:6px;
+    
+    border-width: 0px;
+    
+    background-color:#414946;
+    color:white;
+    
+   
+    
+}
+
+
+
+
+
+.contactUsDropDownList:focus
+{
+     box-shadow:0px 0px 5px 1px silver;
+}
+
+.contactUsDropDownList:hover
+{
+    cursor:pointer;
+}
+  
+
+
+#contactUsMessage
+{
+    position:absolute;
+    top:690px;
+    left:30px;
+    font-size:16px;
+    font-weight: bold;
+    
+    border-radius:5px;
+    padding-top:10px;
+    padding-left:10px;
+     padding-right:10px;
+    
+    border-width: 2px;
+    border-color:black;
+    
+    background-color:#414946;
+    background-color:#414946;
+    color:white;
+    
+}
+
+#contactUsMessage:focus
+{
+     box-shadow:0px 0px 5px 1px silver;
+}
+
+#contactUsMessage:hover
+{
+    cursor:pointer;
+}
+  
+
+#SendMessageButton
+{
+    position:absolute;
+    left:30px;
+    top:1030px;
+    color:whitesmoke;
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    border-radius:6px;
+    width:50%;
+    height:40px;
+    background-color:darkturquoise;
+    font-size:25px;
+    background-image:url("pictures/loginInButton.jpg");
+    transition:filter 0.4s;
+    font-family:Georgia;
+    display:block;
+}
+#SendMessageButton:hover{
+    cursor:pointer;
+    filter:opacity(60%);
+}
+
+.contactErrorMessages
+{
+    color:red; 
+    position:absolute; 
+    left:30px; 
+    top:125px;  
+    
+    display:block; 
+    visibility: hidden; 
+    font-family:Verdana;
+    font-size:15px;
+    
+}
+
+.letterPicture
+{
+    width:350px;
+    height:300px;
+    position:Absolute;
+    top:440px;
+    left:90px;
+    
+}
+
+.AnimationBox
+{
+    
+}

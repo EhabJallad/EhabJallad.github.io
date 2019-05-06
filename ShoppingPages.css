@@ -1,0 +1,351 @@
+#shoppingBackground
+{
+      
+     background-image: linear-gradient(to bottom, black,#2e3744,black) ;
+    background-size:cover;
+    position:static;
+    
+    overflow-x:scroll;
+     
+    
+   
+}
+
+.shoppingItems
+{
+    position:absolute;
+    top:400px;
+    left:260px;
+    width:260px;
+    height:260px;
+    border-style:solid;
+    background-size: contain;
+    background-size:260px 260px;
+    
+    transition:filter 0.5s;
+    
+    overflow:hidden;
+    
+}
+  
+/* Text animation when hovering the mouse over the shopping pictures */
+
+.shoppingItems:hover
+{
+    filter:brightness(40%) ;
+    cursor: pointer;
+    
+    
+    
+    
+}
+
+
+.shoppingItems:hover > .itemsHeadings
+{
+    left:20px;
+    
+    
+    
+}
+
+
+
+.itemsHeadings
+{
+    background-color:rgba(0,0,0,0.6);
+    color:white;
+    
+    font-size:10px;
+    font-weight: bold;
+    position:relative;
+    top:110px;
+    
+    left:-260px;
+    transition:1s;
+    
+    width:100px;
+    height:25px;
+    padding:25px;
+    border-style:solid;
+    border-color:black;
+    border-width:0.5px;
+    filter:opacity(95%);
+    font-family:Verdana;
+    font-size:15px;
+    color:white;
+    
+    
+    
+}
+
+/* Shopping pages banner */
+
+#shoppingPagesBanners
+{
+    width:1130px;
+    height:200px;
+    position:absolute;
+    top:170px;
+    left:260px;
+}
+
+#VerticalAds
+{
+    width:230px;
+    height:600px;
+    position:absolute;
+    top:320px;
+    left:0px;
+    
+}
+
+
+/*Box that appears when you click at an item */
+
+.itemPage
+{
+    position:absolute;
+    border-style: solid;
+    border-color:black;
+    border-width:2px;
+    background-image: url("Pictures/itemPageBackground.jpg");
+    
+    
+    position:absolute;
+    top:50px;
+    left:170px;
+   
+    width:1150px;
+    height:650px;
+    z-index:4;
+    
+    
+}
+
+
+
+
+/* Add to cart Button */
+
+.itemPageButtons
+{
+    color:whitesmoke;
+    position:absolute;
+    top:585px;
+    left:950px;
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    border-radius:6px;
+    width:15%;
+    height:40px;
+    background-color:darkturquoise;
+    font-size:25px;
+    background-image:url("pictures/loginInButton.jpg");
+    transition:filter 0.4s;
+    font-family:Verdana;
+    display:block;
+    
+   
+}
+
+
+
+.itemPageButtons:hover{
+    cursor:pointer;
+    filter:opacity(60%);
+}
+
+/**/
+
+.itemPageButtons:disabled
+{
+    background-image:url("");
+    background-color:grey;
+}
+
+
+.itemPageButtons:disabled:hover
+{
+    cursor:auto;
+    filter:opacity(100%);
+}
+
+/*extra for now*/
+
+.cartButtonDisabled
+{
+    color:whitesmoke;
+    position:absolute;
+    top:585px;
+    left:950px;
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    border-radius:6px;
+    width:15%;
+    height:40px;
+    font-size:25px;
+    background-image:url("");
+    background-color:grey;
+    transition:filter 0.4s;
+    font-family:Georgia;
+ 
+}
+
+
+.cartButtonDisabled:hover
+{
+    cursor:pointer;
+    filter:opacity(100%);
+}
+
+
+/*extra for now*/
+
+
+
+
+
+
+
+
+.itemPageImage
+{
+    width:375px;
+    height:375px;
+    position:absolute;
+    top:130px;
+    left:380px;
+    border-style:solid;
+    border-color:black;
+    border-width:2px;
+    background-repeat: no-repeat;
+    background-size: 375px 375px;
+    
+}
+
+.sideImagesBox
+{
+    width:250px;
+    height:375px;
+    
+    position:absolute;
+    top:130px;
+    left:50px;
+    
+    border-style:none;
+    border-color:black;
+    border-width:1px;
+}
+
+.sideImages
+{
+    width:85px;
+    height:85px;
+    
+    position:absolute;
+    top:2px;
+    left:78px;
+    
+    border-style:solid;
+    border-color:black;
+    border-width:0.4px;
+    transition:filter 0.7s;
+    
+}
+
+
+
+.sideImages:hover
+{
+    cursor: pointer;
+    filter: opacity(45%);
+    
+}
+
+.itemDescription
+{
+    width:370px;
+    height:450px;
+    
+    position:absolute;
+    top:95px;
+    left:770px;
+    
+    border-style:none;
+    border-color:black;
+    border-width:1px;
+    
+}
+
+.itemDescriptionHeading
+{
+    position:absolute;
+    top:20px;
+    left:30px;
+    color:white;
+    font-size:23px;
+    font-family:Verdana;
+}
+
+.itemDescriptionDetails
+{
+    position:absolute;
+    top:90px;
+    left:30px;
+    color:black;
+    font-size:23px;
+    font-family:Georgia;
+    color:pink;
+    line-height:31px;
+    margin:0px;
+    padding:0px;
+    
+}
+
+.itemDescriptionPrice
+{
+    position:absolute;
+    top:360px;
+    left:30px;
+    color:brown;
+    font-size:25px;
+    font-family:Georgia;
+    color:mediumpurple;
+    
+}
+
+.itemDescriptionRating
+{
+    position:absolute;
+    top:430px;
+    left:35px;
+    color:blue;
+    font-size:25px;
+    color:white;
+    
+}
+
+#backButton
+{
+    
+}
+
+/* Add to cart button */
+
+
+.cartButton {
+}
+        
+    
+.item1 {
+	
+    
+        
+    }
+.sideFront
+    {
+        
+    }

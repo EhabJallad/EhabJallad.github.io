@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Create An Account</title>
+    <meta charset = "utf-8">
+    <link href ="Images/favicon.ico" rel = "shortcut icon" type = "image/x-icon"/>
+    <link href = "signIn.css" rel = "stylesheet" type = "text/css"/>
+    <link href = "signUp.css" rel = "stylesheet" type = "text/css"/>
+    <link rel="stylesheet" href="Main.css">
+      <script src="jquery.min.js"></script>
+    <script src = "main.js" ></script>
+    
+    
+  </head>
+    
+    
+  <body id = "signUpBackground">
+      
+       <!-- From here you start copying from mainPage -->
+        <img id = "topButton" src = "pictures/topButton.jpg" >
+       <!-- From here copying ends -->
+      
+      <!--  Logo  -->
+      <a href = "index.html"><img id = "logoLink" src = "Pictures/Logo.jpg " style = "position: absolute; top:30px; left:0px; z-index:3;"  ></a>
+      
+      
+      
+      <!-- Main part-->
+      
+        <!-- Section 1 <Ad > -->
+       <div id = "Ad">
+            
+            
+            
+       </div>
+      
+      
+      
+      <!-- Section 2 <Sign-Up box > -->
+      
+      <div id = "SignUpBox" >
+          <p id = "p1">Create an account</p>
+          <p id = "step">Step 1 / 4 : Account information</p>
+          
+          <hr id = "xLine"/>
+          
+          
+       <form name = "signUpForm" id = "signUpform" autocomplete = "off">
+           
+           <!-- First name -->
+           
+        <span style = "position:absolute; left:45px; top:200px; color:white;" class = "inputBoxheading" id = "head1">First Name</span>
+           
+           
+        <input type = "text" id = "firstNameBox" class = "InputBoxes" placeholder = "First Name..." style = "position:absolute;  left:45px; width:320px; top:240px;">
+           <br><br><br><br><br>
+           
+           
+        <p style = "color:red; position:absolute; left:45px; top:290px;  display:block;font-family:Verdana; font-size:15px; visibility: hidden;" id = "firstNameError" >Error</p>
+        
+           
+           
+           <!-- Surname -->
+           
+        <span style = "position:absolute; left:45px; top:350px; color:white;" class = "inputBoxheading" id = "head2">Surname</span>
+           
+           
+        <input type = "text" id = "SurnameBox" class = "InputBoxes" placeholder = "Surname..." style = "position:absolute;  left:45px; width:320px; top:390px;">
+           <br><br><br><br><br>
+           
+           
+        <p style = "color:red; position:absolute; left:45px; top:450px;  display:block; visibility: hidden; font-family:Verdana; font-size:15px;" id = "SurNameError" >Error</p>
+           
+           
+           <!-- Email Address -->
+           
+        <span style = "position:absolute; left:45px; top:520px; color:white; " class = "inputBoxheading" id = "head3">Email</span>
+           
+           
+        <input type = "text" id = "emailBox" class = "InputBoxes" placeholder = "Email address..." style = "position:absolute;  left:45px; width:320px; top:560px; visibility: false;">
+           <br><br><br><br><br>
+           
+           
+        <p style = "color:red; position:absolute; left:45px; top:620px;  display:block; visibility: hidden; font-family:Verdana; font-size:15px;" id = "emailError" >Error</p>
+
+       
+          
+
+       
+           
+      
+           
+           
+           
+        <!-- Password -->
+           
+        <span style = "position:absolute; left:45px; top:700px; color:white;" class = "inputBoxheading" id = "head4">Password</span>
+           
+           
+        <input type = "text" id = "passwordBox" class = "InputBoxes" placeholder = "Password..." style = "position:absolute;  left:45px; width:320px; top:740px;">
+           <br><br><br><br><br>
+           
+           
+        <p style = "color:red; position:absolute; left:45px; top:800px;  display:block; visibility: hidden; font-family:Verdana; font-size:15px;" id = "passwordError"  >Error</p>
+           
+           
+           
+           <!-- Confirm Password -->
+           
+        <span style = "position:absolute; left:45px; top:870px; color:white;" class = "inputBoxheading"id = "head5">Confirm Password</span>
+           
+           
+        <input type = "text" id = "confirmPasswordBox" class = "InputBoxes" placeholder = "Confirm Password..." style = "position:absolute;  left:45px; width:320px; top:920px;">
+           <br><br><br><br><br>
+           
+           
+        <p style = "color:red; position:absolute; left:45px; top:970px;  display:block; visibility: hidden; font-family:Verdana; font-size:15px;" id = "confirmPasswordError" >Error</p>
+           
+           
+           <!-- Extra elements -->
+           <p id = "extraHead1"></p>
+           <p id = "extraBox1"></p>
+           <p id = "extraError1"></p>
+           
+           <p id = "extraHead2"></p>
+           <p id = "extraBox2"></p>
+           <p id = "extraError2"></p>
+
+
+       
+          
+
+       
+           
+       <!-- Sign in button -->
+       <input id = "Next1Button" type = "button" value = "Next"
+              
+              style = "position:absolute; top:1060px; left:210px;width:300px;">
+           
+           
+           
+           
+           
+           
+       
+          
+      </form>
+  
+       </div>
+        
+     
+   
+          
+            
+       
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+<!-- Part(2): from here you copy the bottom part from Mainpage -->
+    
+    <!-- Bottom part -->
+    <div id = "bottomPart" style = "position:relative; top:-60px; right:10px;
+                                   ">
+         
+        
+        <a href = "https://web.facebook.com/?_rdc=1&_rdr" target = "_blank"  style = "visibility:hidden;">
+            <img  src = "Pictures/socialMedia/Facebook.png" class = "socialMedia" id = "facebook">
+        </a>
+        
+        <a href= "https://twitter.com/" target = "_blank" style = "visibility:hidden;">
+            <img src = "Pictures/socialMedia/Twitter.png" class = "socialMedia" id = "twitter">
+        </a>  
+        
+        <a href= "https://www.youtube.com/" target = "_blank" style = "visibility:hidden;">
+            <img  src = "Pictures/socialMedia/youtube.png" class = "socialMedia" id = "youtube">
+        </a>    
+        
+        <span class = "words">  ShoppingStore Online inc.  </span>
+        
+        <a href = "aboutUs.html"  class = "words "  ><span class = "bottomLinks">About Us</span></a>
+        <a href = "contactUs.html"  class = "words "  ><span class = "bottomLinks">Contact Us</span></a>
+        <a href = "privacyPolicy.html"  class = "words "  ><span class = "bottomLinks">Privacy Policy</span></a> 
+        <a href = "FAQ.html"  class = "words "  ><span class = "bottomLinks">FAQ</span></a>
+ 
+        
+    </div>
+    
+<!-- Part(2): from here you finsh copying the bottom part of Mainpage -->
+    
+       
+      
+    
+       
+   
+      
+      
+  </body>
+    
+    
+</html>

@@ -1,0 +1,505 @@
+
+#signUpBackground
+{
+  background-color:black;  
+  overflow-x:scroll;
+    height:1000px;
+  
+}
+
+
+#Ad
+{
+    position:relative;
+    left:-8px;
+    top:0px;
+    background-image: url("Pictures/SignUpAd.jpg");
+    background-repeat: no-repeat;
+    background-size:800px 1148px;
+    width:800px;
+    height:1200px;
+    
+    display:inline-block;
+}
+
+
+
+
+#SignUpBox
+{
+    
+    position:absolute;
+    top:0px;
+    left:792px;
+    background-image: radial-gradient( #070723 10%, #000000 70%);
+    
+    background-repeat:no-repeat;
+    background-size:700px 1150px;
+    width:750px;
+    height:1200px;
+    display:inline-block;
+}
+
+#p1
+{
+    color:white;
+    font-size:30px;
+    position:absolute;
+    top:20px;
+    left:220px;
+    font-family: Verdana;
+    
+
+}
+
+#step
+{
+     color:white;
+    font-size:18px;
+    position:absolute;
+    top:105px;
+    left:45px;
+    font-family: Verdana;
+    color:pink;
+
+    
+}
+
+#xLine
+{
+    
+    
+    background-color:blue;
+    
+    position:relative;
+    top:150px;
+    right:25px;
+    width:700px;
+   
+    
+    
+}
+
+
+#Next1Button
+{
+    color:whitesmoke;
+    position:absolute;
+    top:40px;
+    left:40px;
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    border-radius:6px;
+    width:80%;
+    height:40px;
+    background-color:darkturquoise;
+    font-size:25px;
+    background-image:url("pictures/loginInButton.jpg");
+    transition:filter 0.4s;
+    font-family: Verdana;
+    display:block;
+   
+}
+
+#Next1Button:hover{
+    cursor:pointer;
+    filter:opacity(60%);
+}
+
+
+#Next2Button {
+     color:whitesmoke;
+    position:absolute; 
+    top:1400px; 
+    left:305px;
+    width:300px;
+
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    border-radius:6px;
+    height:40px;
+    background-color:darkturquoise;
+    font-size:25px;
+    background-image:url("pictures/loginInButton.jpg");
+    transition:filter 0.4s;
+    font-family: Verdana;
+    display:block;
+	
+}
+
+#Next2Button:hover{
+    cursor:pointer;
+    filter:opacity(60%);
+}
+
+
+#Next3Button
+{
+    color:whitesmoke;
+    position:absolute;
+    top:40px;
+    left:40px;
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    border-radius:6px;
+    width:80%;
+    height:40px;
+    background-color:darkturquoise;
+    font-size:25px;
+    background-image:url("pictures/loginInButton.jpg");
+    transition:filter 0.4s;
+    font-family: Verdana;
+    display:block;
+   
+}
+
+#Next3Button:hover{
+    cursor:pointer;
+    filter:opacity(60%);
+}
+
+
+#gender
+{
+    position:absolute;  
+    left:45px; 
+    width:100px;
+    font-size:10px;
+    top:240px;
+    
+    background-color:#414946;
+    color:white;
+    
+    font-size:15px;
+    padding:10px;
+    border-radius:5px;
+    border-width:0px;
+    
+}
+
+#gender:hover{
+    cursor:pointer;
+    
+}
+
+#gender:focus
+{
+  
+      box-shadow:0px 0px 5px 1px silver;
+}
+
+#birthday
+{
+    
+    
+    position:absolute;  
+    left:45px; 
+    top:390px;
+    width:320px; 
+   
+    
+    background-color:#414946;
+    color:white;
+    
+    font-size:15px;
+    padding:10px;
+    border-radius:5px;
+    border-width:0px;
+}
+
+#birthday:hover{
+    cursor:pointer;
+    
+}
+
+#birthday:focus
+{
+  
+      box-shadow:0px 0px 5px 1px silver;
+}
+
+
+
+#country
+{
+    
+    position:absolute;  
+    left:45px;
+    top:570px;
+    width:200px;
+    font-size:10px;
+    
+    
+    background-color:#414946;
+    color:white;
+    
+    font-size:15px;
+    padding:10px;
+    border-radius:5px;
+    border-width:0px;
+    
+}
+
+#country:hover{
+    cursor:pointer;
+    
+}
+
+#country:focus
+{
+  
+      box-shadow:0px 0px 5px 1px silver;
+}
+
+
+#city
+{
+    position:absolute;  
+    left:45px;
+    top:750px; 
+    width:200px;
+    font-size:10px;
+    
+    border-width:0px;
+    background-color:#414946;
+    color:white;
+    border-width:0px;
+    font-size:15px;
+    padding:10px;
+    border-radius:5px;
+    border-width:0px;
+    
+}
+
+#city:hover{
+    cursor:pointer;
+    
+}
+
+#city:focus
+{
+  
+      box-shadow:0px 0px 5px 1px silver;
+}
+
+
+
+
+#street
+{
+    position:absolute;  
+    left:45px;
+    top:920px;
+    width:200px;
+    font-size:10px;
+    
+    
+    background-color:#414946;
+    color:white;
+    
+    font-size:15px;
+    padding:10px;
+    border-radius:5px;
+    border-width:0px;
+    
+}
+
+#street:hover{
+    cursor:pointer;
+    
+}
+
+#street:focus
+{
+  
+      box-shadow:0px 0px 5px 1px silver;
+}
+
+
+/*    Page 3 of sign up   */
+
+#paymentMethod
+{
+    color:white;
+    font-size:22px;
+    position:absolute;
+    top:211px;
+    left:30px;
+    
+}
+
+
+ /*Terms and conditions page*/
+#termConditionField
+{
+    position:absolute;
+    top:290px;
+    left:30px;
+    font-size:16px;
+    font-weight: bold;
+    font-family:Verdana;
+    
+}
+    
+
+
+.paymentButtons
+{
+    transform:scale(1.8);
+    transition: transform 0.5s;
+    position: absolute;
+    top:9px;
+    
+    
+
+}
+
+
+
+.paymentButtons:hover {
+     transform:scale(3);
+
+     cursor:pointer;
+    background-clip: content-box;
+    border: 1px solid #bbbbbb;
+  background-color: #e7e6e7;
+   
+}
+
+
+/*hand animation*/
+
+#hand
+{
+    width:35px;
+    height:35px;
+    position:absolute;
+    top:228px;
+    left:630px;
+    
+    
+    animation-name: hand;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+    
+    
+}
+
+@keyframes hand {
+  
+    0%   {left: 525px;}
+  10%  {left: 522.5px;}
+  20%  {left: 520px;}
+  30% {left: 517.5px;}
+  40% {left: 515px;}
+  50% {left: 512.5px;}
+  60%   {left:510px;}
+  70%  {left: 507.5px;}
+  80%  {left: 505px;}
+  90% {left: 502.5.5px;}
+  100% {left: 500px;}
+  
+ 
+  
+}
+
+#paymentGuide
+{
+    color:white;
+    font-size:28px;
+    position:absolute;
+    top:400px;
+    left:30px;
+    
+}
+
+#expirationDateBox
+{
+    position:absolute;  
+    left:45px; 
+    top:390px;
+    width:320px; 
+   
+    
+    background-color:#414946;
+    color:white;
+    
+    font-size:15px;
+    padding:8px;
+    border-radius:5px;
+    
+}
+
+/*agreement checkbox parts*/
+
+#agreeCheckBox
+{
+    position:absolute;
+    top:730px;
+    left:45px;
+    color:white;
+    font-size:23px;
+    
+    
+    
+}
+
+
+#latestOfferCheckBox
+{
+    position:absolute;
+    top:850px;
+    left:45px;
+    color:white;
+    font-size:23px;
+    
+    
+    
+}
+
+.checkBox
+{
+    transform:scale(1.8);
+    transition: transform 0.5s;
+    
+}
+
+.checkBox:hover{
+     transform:scale(3);
+     cursor:pointer;
+   
+    
+}
+
+#submit
+{
+  color:whitesmoke;
+    position:absolute;
+    top:950px;
+    left:250px;
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    border-radius:6px;
+    width:40%;
+    height:40px;
+    background-color:darkturquoise;
+    font-size:25px;
+    background-image:url("pictures/loginInButton.jpg");
+    transition:filter 0.4s;
+    font-family: Verdana;
+    display:block;
+   
+
+
+}
+
+#submit:hover{
+    cursor:pointer;
+    filter:opacity(60%);
+}

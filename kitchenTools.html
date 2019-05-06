@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Kitchen Tools</title>
+     <link rel="stylesheet" href="eachItem.css">
+    <link href = "ShoppingPages.css" rel = "stylesheet" type = "text/css"/>
+    <link rel="stylesheet" href="Main.css">
+    <script src="jquery.min.js"></script>
+    <script src = "main.js" ></script>
+    
+</head>
+
+<body id = "shoppingBackground" >
+
+<!-- Top Banner-->  
+    <img id = "shoppingPagesBanners" src = "Pictures/shoppingPages%20Banners/banner2.jpg"/>
+    
+<!-- vertical Ad-->
+     <img id = "VerticalAds" src = "Pictures/VerticalAd/Ad2.jpg"/>
+    
+        
+ <!-- Part(1): Copying from other pages starting from here -->  
+  <!-- Top button-->
+    <a href = "#topPart">
+        <img id = "topButton" src = "pictures/topButton.jpg" style = "position:fixed;" >
+    </a>
+    
+ 
+
+<div id = "topPart"   style = "top:0px; left:0px; width:1560px;" >
+    
+    <!--Shopping cart-->
+  
+    
+    <span class= "shoppingCart" >
+        <img src = "Pictures/ShoppingCart.jpg" width = "90px" height = "90px">
+        <!-- Shopping cart counter -->
+        <div class = "itemsCounter" style = "bottom:65px;"></div>
+    </span>
+    
+      <!-- Shopping Cart content-->
+    <!--<div class = "shoppingCartContent" >
+        <div class = "cartItems" style = "width:185px;"></div>
+        <div class = "cartItems" style = "top:112px; width:185px;"></div>
+        <div class = "cartItems" style = "top:216px; width:185px;"></div>
+    
+    </div> -->
+    
+     <!-- Shopping Cart content-->
+    <div class = "shoppingCartContent" style = "right:25px; top:115px; height:334px;">
+        <button class = "ShoppingCartTopButton" style = "left:2px;">↑</button>
+        <div class = "shoppingCartmovingbox" style = "left:1px;">
+            
+        <!-- Keeping these in case (starts here)-->    
+            
+          <div ><!--class = "cartItems item1" -->
+             <!-- <div  class = "cartItemImage"></div>
+              
+              <span class = "cartItemHeading">Heading</span>
+              <span class = "cartItemPrice">Price</span>
+              <span class = "cartItemQuantity"><span>Item Quantity</span><input  class = "QuantitySelector" type = "number" min = "1" max = "10"></span>
+              
+              
+              
+              <span class = "cartItemDelete">Delet</span>
+              
+            -->
+            </div>
+            
+          <div></div>
+          <div ></div>
+          <div  ></div>
+          <div  ></div>
+          <div ></div>
+            
+        </div>
+        
+        <!-- Keeping these in case (eds here)-->  
+        <button class = "ShoppingCartBottomButton" style = "left:2.5px;">↓</button>
+    
+    </div>
+    
+    
+    
+  <!--  Logo  -->
+    <img id = "logo" src = "Pictures/Logo.jpg" >
+    
+  <!-- Search Engine -->
+    
+
+ 
+  <input type = "search"  id = "searchBar" placeholder = "Search..." autofocus = "off">
+    
+   
+  <!-- Navigation bar-->
+  <nav id = "navBar">
+    <a class = "navLinks" href = "index.html">Home</a>
+    <a class = "navLinks" href = "Furniture.html">Furniture</a>
+    <a class = "navLinks" href = "electronicDevices.html">Electronic Devices</a>
+    <a class = "navLinks" href = "kitchenTools.html" >Kitchen Tools</a>
+  </nav>
+    
+    
+  <!-- Sign-in and sign-up buttons-->
+    <nav>
+        
+    <a class = "borderedButtons" href = "signIn.html">Sign In </a>
+    <a class = "borderedButtons" href = "signUp.html">Sign Up</a>
+    
+    </nav>
+    
+    
+    
+ 
+    
+  
+    
+       
+</div>
+    
+    <!-- Part(1) Copying content from main page finshes here -->
+    
+    
+<!-- Main part -->
+<div>
+    <!-- Row one of pictures -->
+    
+  <!-- KitchenTools Box 1 -->
+  <div class = "shoppingItems shoppingItem1"
+       style = "background-image: url('Pictures/Kitchen%20Tools/kitchenTool1.jpg');">
+      
+      <span class = "itemsHeadings"  id = "kitchenitemHeading1">SensoRed Frying pan</span>
+  
+  </div>
+    
+  
+    
+  <!-- KitchenTools 1 Box  starts here-->
+    <div class = "itemPage itemPage1">
+        <input type = "button" value = "Back to Page" class = "itemPageButtons backButton"
+               style = "left:45px;"  >
+        
+        <input type = "button" value = "Add to Cart" class = "itemPageButtons cartButton"
+               >
+        
+        <div class = "sideImagesBox">
+            <img class = "sideImages sideFront"  src = "Pictures/Kitchen%20Tools/kitchenTool1.jpg"/>
+                                                          "/>
+            <img class = "sideImages" id = "sideHor" style = "top:95px;"  src = "Pictures/Kitchen%20Tools/KitchenTool1SideBehind.jpg"s/>
+            <img class = "sideImages" id = "sideBehind"  style = "top:193px;"  src = "Pictures/Kitchen%20Tools/KitchenTool1SideHor.jpg"/>
+            <img class = "sideImages" id = "sideExtra" style = "top:291px;"
+                  src = "Pictures/Kitchen%20Tools/KitchenTool1SideExtra.jpg"/>
+        </div>
+        
+        <div class = "itemPageImage" style = "background-image: url('Pictures/Kitchen%20Tools/kitchenTool1.jpg')">
+        </div>
+        <!-- Item Description-->
+        <div class = "itemDescription">
+            <span class = "itemDescriptionHeading">SensoRed Frying pan </span>
+            <ul class = "itemDescriptionDetails">
+                <li>Material: aluminum</li>
+                <br/>
+                <li>With color changing non-stick coating.</li>
+                <br/>
+                <li>Suitable for all types of oven.</li>
+                <br/>
+                <li>Thermo-sensitive.</li>
+            </ul>
+            
+             <span class = "itemDescriptionPrice">Price:  $70.35 </span>
+            <!-- Item Rating :  empty star = &star; & filled star =  &starf;-->
+             <span class = "itemDescriptionRating">&starf;&starf;&starf;&starf;&starf;</span>
+            
+            
+            
+            
+            
+        </div>
+        
+    </div>
+    
+    
+    
+    
+  <!-- KitchenTools 1 Box finshes here -->
+    
+    
+    
+    
+    
+    <!-- KitchenTools item 2-->
+  <div class = "shoppingItems shoppingitem2" 
+     style = "left:550px; background-image: url('Pictures/Kitchen%20Tools/kitchenTool2.jpg');">
+    <span class = "itemsHeadings" id = "kitchenitemHeading2">Instant Pressure Cooker</span>
+  </div>
+    
+      
+  <!-- Furniture 2 Box  starts here-->
+    <div class = "itemPage itemPage2">
+        <input type = "button" value = "Back to Page" class = "itemPageButtons backButton"
+               style = "left:45px;"  >
+        
+        <input type = "button" value = "Add to Cart" class = "itemPageButtons cartButton"
+               >
+        
+        <div class = "sideImagesBox">
+            <img class = "sideImages sideFront"  src = "Pictures/Kitchen%20Tools/kitchenTool2SideFront.jpg"/>
+                                                          "/>
+            <img class = "sideImages" id = "sideHor" style = "top:95px;"  src = "Pictures/Kitchen%20Tools/kitchenTool2SideBehind.jpg"/>
+            <img class = "sideImages" id = "sideBehind"  style = "top:193px;"  src = "Pictures/Kitchen%20Tools/kitchenTool2SideHor.jpg"/>
+            <img class = "sideImages" id = "sideExtra" style = "top:291px;"
+                  src = "Pictures/Kitchen%20Tools/kitchenTool2SideExtra.jpg"/>
+        </div>
+        
+        <div class = "itemPageImage" style = "background-image: url('Pictures/Kitchen%20Tools/kitchenTool2.jpg')">
+        </div>
+        <!-- Item Description-->
+        <div class = "itemDescription">
+            <span class = "itemDescriptionHeading">Instant Pressure Cooker</span>
+            <ul class = "itemDescriptionDetails">
+                <li>Healthy, stainless steel.</li>
+                <br/>
+                <li>Power supply: 120V – 60Hz.</li>
+                <br/>
+                <li>Features 14 Smart Programs.</li>
+                <br/>
+                <li>Built with the latest technology.</li>
+            </ul>
+            
+             <span class = "itemDescriptionPrice">Price:  $64.25</span>
+            <!-- Item Rating :  empty star = &star; & filled star =  &starf;-->
+             <span class = "itemDescriptionRating">&starf;&starf;&starf;&starf;&star;</span>
+            
+            
+            
+            
+            
+        </div>
+        
+    </div>
+    
+    
+    
+    
+  <!-- Furniture 2 Box finshes here -->
+    
+    
+  <!-- Item 3-->
+  <div class = "shoppingItems shoppingItem3"
+     style = "left:840px; background-image: url('Pictures/Kitchen%20Tools/kitchenTool3.jpg');">
+    <span class = "itemsHeadings" id = "kitchenitemHeading3">3-Set Original Peeler</span>
+  </div>
+    
+    <!-- Furniture 3 Box  starts here-->
+    <div class = "itemPage itemPage3">
+        <input type = "button" value = "Back to Page" class = "itemPageButtons backButton"
+               style = "left:45px;"  >
+        
+        <input type = "button" value = "Add to Cart" class = "itemPageButtons cartButton"
+               >
+        
+        <div class = "sideImagesBox">
+            <img class = "sideImages sideFront"  src = "Pictures/Kitchen%20Tools/KitchenTool3SideFront.jpg"/>
+                                                          "/>
+            <img class = "sideImages" id = "sideHor" style = "top:95px;"  src = "Pictures/Kitchen%20Tools/KitchenTool3SideHor.jpg"/>
+            <img class = "sideImages" id = "sideBehind"  style = "top:193px;"  src = "Pictures/Kitchen%20Tools/KitchenTool3SideBehind.jpg"/>
+            <img class = "sideImages" id = "sideExtra" style = "top:291px;"
+                  src = "Pictures/Kitchen%20Tools/KitchenTool3SideExtra.jpg"/>
+        </div>
+        
+        <div class = "itemPageImage" style = "background-image: url('Pictures/Kitchen%20Tools/kitchenTool3.jpg')">
+        </div>
+        <!-- Item Description-->
+        <div class = "itemDescription">
+            <span class = "itemDescriptionHeading">3-Set Original Peeler</span>
+            <ul class = "itemDescriptionDetails">
+                <li>Set of 3 peelers in different colors.</li>
+                <br/>
+                <li>Super-sharp carbon steel blade.</li>
+                <br/>
+                <li>Carbon steel horizontal Y blade.</li>
+                <br/>
+                <li>Contains  potato eye remover.</li>
+            </ul>
+            
+             <span class = "itemDescriptionPrice">Price:  $4.5</span>
+            <!-- Item Rating :  empty star = &star; & filled star =  &starf;-->
+             <span class = "itemDescriptionRating">&starf;&starf;&starf;&star;&star;</span>
+            
+            
+            
+            
+            
+        </div>
+        
+    </div>
+    
+    
+    
+    
+  <!-- Furniture 3 Box finshes here -->
+    
+    
+    
+    <!-- Item 4-->
+  <div class = "shoppingItems shoppingItem4"
+     style = "left:1130px; background-image: url('Pictures/Kitchen%20Tools/KitchenTool4.jpg');">
+    <span class = "itemsHeadings" id = "kitchenitemHeading4"> Norpro Nylon Spatula</span>
+  </div>
+    
+     <!-- Furniture 4 Box  starts here-->
+    <div class = "itemPage itemPage4">
+        <input type = "button" value = "Back to Page" class = "itemPageButtons backButton"
+               style = "left:45px;"  >
+        
+        <input type = "button" value = "Add to Cart" class = "itemPageButtons cartButton"
+               >
+        
+        <div class = "sideImagesBox">
+            <img class = "sideImages sideFront"  src = "Pictures/Kitchen%20Tools/KitchenTool4SideFront.jpg"/>
+                                                          "/>
+            <img class = "sideImages" id = "sideHor" style = "top:95px;"  src = "Pictures/Kitchen%20Tools/KitchenTool4SideHor.jpg"/>
+            <img class = "sideImages" id = "sideBehind"  style = "top:193px;"  src = "Pictures/Kitchen%20Tools/KitchenTool4SideBehind.jpg"/>
+            <img class = "sideImages" id = "sideExtra" style = "top:291px;"
+                  src = "Pictures/Kitchen%20Tools/KitchenTool4SideExtra.jpg"/>
+        </div>
+        
+        <div class = "itemPageImage" style = "background-image: url('Pictures/Kitchen%20Tools/kitchenTool4.jpg')">
+        </div>
+        <!-- Item Description-->
+        <div class = "itemDescription">
+            <span class = "itemDescriptionHeading">Norpro Nylon Spatula</span>
+            <ul class = "itemDescriptionDetails">
+                <li>High heat resistant nylon.</li>
+                <br/>
+                <li>Non-slip handles.</li>
+                <br/>
+                <li>thumb grip to provides superior control.</li>
+                
+            </ul>
+            
+             <span class = "itemDescriptionPrice">Price:  $3.10</span>
+            <!-- Item Rating :  empty star = &star; & filled star =  &starf;-->
+             <span class = "itemDescriptionRating">&starf;&starf;&starf;&starf;&starf;</span>
+            
+            
+            
+            
+            
+        </div>
+        
+    </div>
+    
+    
+    
+    
+  <!-- Furniture 4 Box finshes here -->
+    
+    
+
+    <!-- Row two of pictures -->
+    <!-- Item 5-->
+    <div class = "shoppingItems shoppingItem5"
+         style = "left:260px; top:700px; background-image: url('Pictures/Kitchen%20Tools/kitchenTool5.jpg');">
+        <span class = "itemsHeadings" id = "kitchenitemHeading5">
+Kitchen Utensils </span>
+    </div>
+    
+    <!-- Furniture 5 Box  starts here-->
+    <div class = "itemPage itemPage5">
+        <input type = "button" value = "Back to Page" class = "itemPageButtons backButton"
+               style = "left:45px;"  >
+        
+        <input type = "button" value = "Add to Cart" class = "itemPageButtons cartButton"
+               >
+        
+        <div class = "sideImagesBox">
+            <img class = "sideImages sideFront"  src = "Pictures/Kitchen%20Tools/KitchenTool5Front.jpg"/>
+                                                          "/>
+            <img class = "sideImages" id = "sideHor" style = "top:95px;"  src = "Pictures/Kitchen%20Tools/KitchenTool5Hor.jpg"/>
+            <img class = "sideImages" id = "sideBehind"  style = "top:193px;"  src = "Pictures/Kitchen%20Tools/KitchenTool5Behind.jpg"/>
+            <img class = "sideImages" id = "sideExtra" style = "top:291px;"
+                  src = "Pictures/Kitchen%20Tools/KitchenTool5Extra.jpg"/>
+        </div>
+        
+        <div class = "itemPageImage" style = "background-image: url('Pictures/Kitchen%20Tools/kitchenTool5.jpg')">
+        </div>
+        <!-- Item Description-->
+        <div class = "itemDescription">
+            <span class = "itemDescriptionHeading">
+Kitchen Utensils </span>
+            <ul class = "itemDescriptionDetails">
+                <li>Non-stick hygienic silicone coating.</li>
+                <br/>
+                <li>Made of durable silicone.</li>
+                <br/>
+                <li>Will not be polluted or erode.</li>
+                
+            </ul>
+            
+             <span class = "itemDescriptionPrice">Price:  $12.5</span>
+            <!-- Item Rating :  empty star = &star; & filled star =  &starf;-->
+             <span class = "itemDescriptionRating">&starf;&starf;&starf;&star;&star;</span>
+            
+            
+            
+            
+            
+        </div>
+        
+    </div>
+    
+    
+    
+    
+  <!-- Furniture 5 Box finshes here -->
+    
+    
+    <!-- Item 6-->
+    
+    <div class = "shoppingItems shoppingItem6"
+     style = "left:550px; top:700px; background-image: url('Pictures/Kitchen%20Tools/kitchenTool6.jpg');">
+        <span class = "itemsHeadings" id = "kitchenitemHeading6">Cosori Electric Kettle </span>
+    </div>
+    
+    <!-- Furniture 6 Box  starts here-->
+    <div class = "itemPage itemPage6">
+        <input type = "button" value = "Back to Page" class = "itemPageButtons backButton"
+               style = "left:45px;"  >
+        
+        <input type = "button" value = "Add to Cart" class = "itemPageButtons cartButton"
+               >
+        
+        <div class = "sideImagesBox">
+            <img class = "sideImages sideFront"  src = "Pictures/Kitchen%20Tools/kitchenTool6SideFront.jpg"/>
+                                                          "/>
+            <img class = "sideImages" id = "sideHor" style = "top:95px;"  src = "Pictures/Kitchen%20Tools/kitchenTool6SideHor.jpg"/>
+            <img class = "sideImages" id = "sideBehind"  style = "top:193px;"  src = "Pictures/Kitchen%20Tools/kitchenTool6SideBehind.jpg"/>
+            <img class = "sideImages" id = "sideExtra" style = "top:291px;"
+                  src = "Pictures/Kitchen%20Tools/kitchenTool6SideExtra.jpg"/>
+        </div>
+        
+        <div class = "itemPageImage" style = "background-image: url('Pictures/Kitchen%20Tools/kitchenTool6.jpg')">
+        </div>
+        <!-- Item Description-->
+        <div class = "itemDescription">
+            <span class = "itemDescriptionHeading">Cosori Electric Kettle </span>
+            <ul class = "itemDescriptionDetails">
+                <li>Wide Mouth and Easy To Clean.</li>
+                <br/>
+                <li>Simple design.</li>
+                <br/>
+                <li>Water heats up quickly.</li>
+                <br/>
+                <li>Auto shut-off within 30s after the water is fully boiling.</li>
+            </ul>
+            
+             <span class = "itemDescriptionPrice" >Price:  $40</span>
+            <!-- Item Rating :  empty star = &star; & filled star =  &starf;-->
+             <span class = "itemDescriptionRating" >&starf;&starf;&star;&starf;&star;
+            </span>
+            
+            
+            
+            
+            
+        </div>
+        
+    </div>
+    
+    
+    
+    
+  <!-- Furniture 6 Box finshes here -->
+    
+    
+    
+    <!-- Item 7-->
+    <div class = "shoppingItems shoppingItem7"
+     style = "left:840px; top:700px; background-image: url('Pictures/Kitchen%20Tools/kitchenTool7.jpg');">
+        <span class = "itemsHeadings" id = "kitchenitemHeading7">Bellemain Tea Kettle</span>
+    </div>
+    
+    <!-- Furniture 7 Box  starts here-->
+    <div class = "itemPage itemPage7">
+        <input type = "button" value = "Back to Page" class = "itemPageButtons backButton"
+               style = "left:45px;"  >
+        
+        <input type = "button" value = "Add to Cart" class = "itemPageButtons cartButton"
+               >
+        
+        <div class = "sideImagesBox">
+            <img class = "sideImages sideFront"  src = "Pictures/Kitchen%20Tools/kitchenTool7SideFront.jpg"/>
+                                                          "/>
+            <img class = "sideImages" id = "sideHor" style = "top:95px;"  src = "Pictures/Kitchen%20Tools/kitchenTool7SideHor.jpg"/>
+            <img class = "sideImages" id = "sideBehind"  style = "top:193px;"  src = "Pictures/Kitchen%20Tools/kitchenTool7SideBehind.jpg"/>
+            <img class = "sideImages" id = "sideExtra" style = "top:291px;"
+                  src = "Pictures/Kitchen%20Tools/kitchenTool7.jpg"/>
+        </div>
+        
+        <div class = "itemPageImage" style = "background-image:url('Pictures/Kitchen%20Tools/kitchenTool7.jpg')">
+        </div>
+        <!-- Item Description-->
+        <div class = "itemDescription">
+            <span class = "itemDescriptionHeading">Bellemain Tea Kettle </span>
+            <ul class = "itemDescriptionDetails">
+                <li>Formed curves of the handle also guarantee safety.
+                </li>
+                <br/>
+                <li>Resists corrosion, discoloration, scratching, denting, cracking</li>
+            </ul>
+            
+             <span class = "itemDescriptionPrice">Price:  $25</span>
+            <!-- Item Rating :  empty star = &star; & filled star =  &starf;-->
+             <span class = "itemDescriptionRating">&starf;&starf;&star;&star;&star;</span>
+            
+            
+            
+            
+            
+        </div>
+        
+    </div>
+    
+    
+    
+    
+  <!-- Furniture 8 Box finshes here -->
+    
+    
+    <!-- Item 8-->
+    <div class = "shoppingItems shoppingItem8"
+     style = "left:1130px; top:700px; background-image: url('Pictures/Kitchen%20Tools/kitchenTool8.jpg');">
+        <span class = "itemsHeadings" id = "kitchenitemHeading8">Silverware Set</span>
+        
+    </div>
+    
+    <!-- Furniture 8 Box  starts here-->
+    <div class = "itemPage itemPage8">
+        <input type = "button" value = "Back to Page" class = "itemPageButtons backButton"
+               style = "left:45px;"  >
+        
+        <input type = "button" value = "Add to Cart" class = "itemPageButtons cartButton"
+               >
+        
+        <div class = "sideImagesBox">
+            <img class = "sideImages sideFront"  src = "Pictures/Kitchen%20Tools/kitchenTool8SideFront.jpg"/>
+                                                          "/>
+            <img class = "sideImages" id = "sideHor" style = "top:95px;"  src = "Pictures/Kitchen%20Tools/kitchenTool8SideHor.jpg"/>
+            <img class = "sideImages" id = "sideBehind"  style = "top:193px;"  src = "Pictures/Kitchen%20Tools/kitchenTool8SideBehind.jpg"/>
+            <img class = "sideImages" id = "sideExtra" style = "top:291px;"
+                  src = "Pictures/Kitchen%20Tools/KitchenTool8SideExtra.jpg"/>
+        </div>
+        
+        <div class = "itemPageImage" style = "background-image: url('Pictures/Kitchen%20Tools/kitchenTool8.jpg')">
+        </div>
+        <!-- Item Description-->
+        <div class = "itemDescription">
+            <span class = "itemDescriptionHeading">Silverware Set </span>
+            <ul class = "itemDescriptionDetails">
+                <li>Smooth surface makes these silverware set easy to clean.</li>
+                <br/>
+                <li>Extra thick refine high quality stainless steel.</li>
+                <br/>
+                <li>Excellent resistance against corrosion.</li>
+            </ul>
+            
+             <span class = "itemDescriptionPrice">Price:  $31</span>
+            <!-- Item Rating :  empty star = &star; & filled star =  &starf;-->
+             <span class = "itemDescriptionRating" >&starf;&starf;&starf;&starf;&star;</span>
+            
+            
+            
+            
+            
+        </div>
+        
+    </div>
+    
+    
+    
+   
+  </div >
+
+   <!-- Part(2): Copying from main page starts here -->
+    
+    <!-- Bottom part -->
+     <div id = "bottomPart" style = "position:relative; top:970px; right:8px;" style = "visibility: hidden;">
+        <a href= "https://facebook.com/" target = "_blank" style = "visibility: hidden;">
+            <img  src = "Pictures/socialMedia/facebook.png" class = "socialMedia" id = "facebook">
+        </a>
+           
+        
+        <a href= "https://twitter.com/" target = "_blank" style = "visibility: hidden;">
+            <img  src = "Pictures/socialMedia/Twitter.png" class = "socialMedia" id = "twitter">
+        </a>  
+        
+        <a href= "https://www.youtube.com/" target = "_blank" style = "visibility:hidden;" style = "visibility: hidden;">
+            <img  src = "Pictures/socialMedia/youtube.png" class = "socialMedia" id = "youtube">
+        </a> 
+        
+        
+        
+        <span class = "words">  ShoppingStore Online inc.  </span>
+        
+        <a href = "aboutUs.html"  class = "words "  ><span class = "bottomLinks">About Us</span></a>
+        <a href = "contactUs.html"  class = "words "  ><span class = "bottomLinks">Contact Us</span></a>
+        <a href = "privacyPolicy.html"  class = "words "  ><span class = "bottomLinks">Privacy Policy</span></a> 
+        <a href = "FAQ.html"  class = "words "  ><span class = "bottomLinks">FAQ</span></a>
+   
+        
+    </div>
+    
+<!-- Part(2): Copying from main page finshes here -->
+    
+</body>
+
+
+
+</html>

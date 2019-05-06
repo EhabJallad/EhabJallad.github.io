@@ -1,0 +1,163 @@
+/*Item boxes hidings*/
+
+  /*furniture page*/
+
+.shoppingItems:hover > .itemsHeadings
+{
+    left:20px;
+    
+}
+
+.shoppingItems:hover > #itemHeading1
+{
+    left:13px;
+    
+}
+
+.shoppingItems:hover > #itemHeading2
+{
+    left:14px;
+    
+}
+
+
+.shoppingItems:hover > #itemHeading3
+{
+    left:10px;
+    
+}
+
+.shoppingItems:hover > #itemHeading4
+{
+    left:48px;
+    
+}
+
+
+.shoppingItems:hover > #itemHeading5
+{
+    left:35px;
+    
+}
+
+.shoppingItems:hover > #itemHeading6
+{
+    
+    
+}
+
+
+.shoppingItems:hover > #itemHeading7
+{
+    left:30px;
+    
+    
+    
+}
+
+
+
+.shoppingItems:hover > #itemHeading8
+{
+    left:2.5px;
+    
+}
+
+/*Electronic Devices Page*/
+
+.shoppingItems:hover > #ElectornicsitemHeading1
+{
+      left:35px;
+}
+
+.shoppingItems:hover > #ElectornicsitemHeading2
+{
+   left:23px;
+    
+}
+
+.shoppingItems:hover > #ElectornicsitemHeading3
+{
+     left:43px;
+}
+
+.shoppingItems:hover > #ElectornicsitemHeading4
+{
+    
+    
+}
+
+.shoppingItems:hover > #ElectornicsitemHeading5
+{
+  left:45px;
+    
+}
+
+.shoppingItems:hover > #ElectornicsitemHeading6
+{
+   left:7.5px;
+     
+}
+
+.shoppingItems:hover > #ElectornicsitemHeading7
+{
+    left:29px;
+}
+
+.shoppingItems:hover > #ElectornicsitemHeading8
+{
+  
+    left:26px;
+}
+
+  /*Kitchen Tools*/
+
+.shoppingItems:hover > #kitchenitemHeading1
+{
+  
+    
+}
+
+.shoppingItems:hover > #kitchenitemHeading2
+{
+  
+ left:2px;  
+}
+
+.shoppingItems:hover > #kitchenitemHeading3
+{
+  left:18px; 
+  
+}
+
+.shoppingItems:hover > #kitchenitemHeading4
+{
+  
+   left:15px; 
+}
+
+.shoppingItems:hover > #kitchenitemHeading5
+{
+  left:40px; 
+   
+}
+
+.shoppingItems:hover > #kitchenitemHeading6
+{
+  left:17px; 
+  
+}
+
+.shoppingItems:hover > #kitchenitemHeading7
+{
+  
+  
+}
+
+.shoppingItems:hover > #kitchenitemHeading8
+{
+  
+left:40px; 
+}
+
+
